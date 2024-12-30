@@ -1,0 +1,139 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navigation a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  /* Footer Styles */
+.main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin: 0.5rem 0;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #f39c12;
+  }
+  
+  .social-links a {
+    margin-right: 1rem;
+  }
+  
+  .footer-bottom {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    color: #aaa;
+  }
+  .footer {
+    background-color: #5d2424;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  footer a {
+    color: #f39c12;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  .footer-content p {
+    margin: 0.5rem 0;
+  }
+  
+
+  
+  
